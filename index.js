@@ -24,6 +24,7 @@ var myObject ={    //это обект - 6 тип даннх который пр
 
 //Числа
 
+/*
 var result = 40 + 10;
 console.log(40 + myNumber);
 console.log(40 - myNumber);
@@ -38,5 +39,17 @@ console.log(Math.floor(5.6)); //метод floor всегда округляет
 
 var newNumber = 2.455;
 console.log(newNumber.toFixed(1)); //после применения метода toFixed будет возвращено новое число с 1 знаком после точки округляя по математическим правилам
+*/
+
+// работа со строками
+
+console.log('40' + myNumber); //когда одна строка прибавляеться к другой строке это действие называется конкотенация
+
+console.log(myString + ' Как дела?');
+console.log(myString.toLowerCase()); // метод toLowerCase берет строку из myString и из верхего регистра букв применяет ее в нижний регистр
+
+console.log(myString.toUpperCase()); // метод toUpperCase переводит текст в верхний регистр
+
+
 
 
